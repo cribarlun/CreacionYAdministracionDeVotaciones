@@ -7,18 +7,26 @@
  * http://www.tdg-seville.info/License.html
  * 
  */
-
+#cabecera{
+	background: url(cabecera02_imagenFondo_001.png);
+}
+ #idiomas{
+ 	padding-left: 80px;
+ }
 h1 {
-	font: white;
+	font: red;
 	font-family: fantasy;
 	font-style: italic;
 }
+
 
 th {
 	background-color: #483D8B;
 	color: white;
 }
-
+element.style{
+	    background-color: black
+}
 /* a {
 	text-align: center;
 	font-family: Arial, Helvetica, sans-serif;
@@ -30,6 +38,8 @@ th {
 		rgba(0, 0, 0, 0.19);
 }
  */
+ 
+
  a {  
 	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
 	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
@@ -98,8 +108,10 @@ body {
 	background: #191E1A;
 	font-family: Arial, Helvetica, sans-serif;
 	font-size: 13px;
-	color: #FCFFFD; */
-	 background-image: url(fondo-de-pantalla-degradado-azul.jpg);
+	color: #FCFFFD; 
+	
+	 background-image: url(fondo-de-pantalla-degradado-azul.jpg);*/
+	 background-color: white;
 }
 
 button{
@@ -119,6 +131,7 @@ label {
   display: block;
   margin: .5em 0 0 0;
 }
+
 div.centro{
 	text-align: center;
 	background: url(sweettexture.jpg);
