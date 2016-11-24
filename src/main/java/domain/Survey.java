@@ -36,6 +36,7 @@ public class Survey extends DomainEntity implements Serializable {
 	private Date endDate;
 	private Integer census;
 	private String tipo;
+	private Collection<String> tipoVotacion;
 	private Collection<String> opciones;
 
 	public Survey() {
@@ -157,6 +158,16 @@ public class Survey extends DomainEntity implements Serializable {
 
 	public void setOpciones(Collection<String> opciones) {
 		this.opciones = opciones;
+	}
+
+	// El atributo opciones indica las posibles opciones para elegir.
+	@ElementCollection
+	public Collection<String> getTipoVotacion() {
+		return tipoVotacion;
+	}
+
+	public void setTipoVotacion(Collection<String> tipoVotacion) {
+		this.tipoVotacion = tipoVotacion;
 	}
 
 	// Indica la id del censo relacionado a la votacion
