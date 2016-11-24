@@ -87,6 +87,14 @@
 	<form:errors cssClass="error" path="tipo" />
 	<br />
 	<br>
+	<input type="radio" id="tipo0" name="tipo" value="0">
+	Texto
+	<input type="radio" id="tipo1" name="tipo" value="1">
+	Imágenes
+	<input type="radio" id="tipo2" name="tipo" value="2">
+	Video
+	
+	<br>
 	<br>
 	<div class="opciones">
 		Escribe las opciones:
@@ -95,18 +103,23 @@
 	<input type="hidden" name="opcion">
 	Opción 1
 	<input type="text" name="opcion[]" maxlength="200" size="30" class="entrada_opciones" id="op1">
+	<br/>
 	<input type="hidden" name="opcion">
 	Opción 2
 	<input type="text" name="opcion[]" maxlength="200" size="30" class="entrada_opciones" id="op1">
+	<br/>
 	<input type="hidden" name="opcion">
 	Opción 3
 	<input type="text" name="opcion[]" maxlength="200" size="30" class="entrada_opciones" id="op1">
+	<br/>
 	<input type="hidden" name="opcion">
 	Opción 4
 	<input type="text" name="opcion[]" maxlength="200" size="30" class="entrada_opciones" id="op1">
+	<br/>
 	<input type="hidden" name="opcion">
 	Opción 5
 	<input type="text" name="opcion[]" maxlength="200" size="30" class="entrada_opciones" id="op1">
+	<br/>
 	</div>
 	<form:errors cssClass="error" path="opciones" />
 	<br />
