@@ -1,0 +1,165 @@
+/* common.css
+ *
+ * Copyright (C) 2014 Universidad de Sevilla
+ * 
+ * The use of this project is hereby constrained to the conditions of the 
+ * TDG Licence, a copy of which you may download from 
+ * http://www.tdg-seville.info/License.html
+ * 
+ */
+#cabecera{
+	background: url(cabecera02_imagenFondo_001.png);
+}
+ #idiomas{
+ 	padding-left: 80px;
+ }
+h1 {
+	font: red;
+	font-family: fantasy;
+	font-style: italic;
+}
+
+
+th {
+	background-color: #483D8B;
+	color: white;
+}
+element.style{
+	    background-color: black
+}
+/* a {
+	text-align: center;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	background-color: #CCCCCC;
+	text-decoration: none;
+	color: #000000;
+	box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0
+		rgba(0, 0, 0, 0.19);
+}
+ */
+ 
+
+ a {  
+	-moz-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	-webkit-box-shadow:inset 0px 1px 0px 0px #ffffff;
+	box-shadow:inset 0px 1px 0px 0px #ffffff;
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #ffffff), color-stop(1, #f6f6f6));
+	background:-moz-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-webkit-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-o-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:-ms-linear-gradient(top, #ffffff 5%, #f6f6f6 100%);
+	background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#f6f6f6',GradientType=0);
+	background-color:#ffffff;
+	-moz-border-radius:6px;
+	-webkit-border-radius:6px;
+	border-radius:6px;
+	border:1px solid #dcdcdc;
+	display:inline-block;
+	cursor:pointer;
+	color:#666666;
+	font-family:Arial;
+	font-size:15px;
+	font-weight:bold;
+	padding:6px 24px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #ffffff;
+}
+.myButton:hover {
+	background:-webkit-gradient(linear, left top, left bottom, color-stop(0.05, #f6f6f6), color-stop(1, #ffffff));
+	background:-moz-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-webkit-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-o-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:-ms-linear-gradient(top, #f6f6f6 5%, #ffffff 100%);
+	background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+	filter:progid:DXImageTransform.Microsoft.gradient(startColorstr='#f6f6f6', endColorstr='#ffffff',GradientType=0);
+	background-color:#f6f6f6;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+  
+  
+  }
+  
+.wide #content-secondary {
+	width: 272px;
+	margin: 13px 0 0 0;
+	position: relative;
+	margin-left: -8px;
+	background: url("./graphics/wide/bg-content-secondary.gif") repeat-y;
+}
+
+p {
+	font-family: 'Open Sans',Arial,sans-serif;
+    font-size: 15px;
+    font-weight: normal;
+    padding: 25px 15px;
+    line-height: 1.5;
+	
+}
+
+body {
+/* 	margin: 0;
+	padding: 0;
+	background: #191E1A;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	color: #FCFFFD; 
+	
+	 background-image: url(fondo-de-pantalla-degradado-azul.jpg);*/
+	 background-color: white;
+}
+
+button{
+	
+	background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+	
+}
+
+label {
+  display: block;
+  margin: .5em 0 0 0;
+}
+
+div.centro{
+	text-align: center;
+	background: url(sweettexture.jpg);
+	
+}
+div.texto{
+	padding-top: -20px;
+	font-family:Arial;
+	font-size:20px;
+}
+input:focus {
+  border: 2px solid #000;
+  background: #F3F3F3;
+}
+
+fieldset {
+border:5px groove #000; /*borde*/
+ /*color de fondo*/
+
+margin-left:25%;
+margin-right:25%;
+color:#000; /*Color del texto de todo el contenido*/
+background: url(img-noise-361x370.png);
+
+}
+legend {
+padding-bottom:40px;	
+text-align:center; /*Puedes cambiarlo por center o right*/
+font-size:40px; /*Estilo de la fuente del título*/
+color:black; /*Color del título*/
+} 
