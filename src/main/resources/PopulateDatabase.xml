@@ -17,6 +17,13 @@
 		<property name="startDate" value="2016/05/02 12:00" />
 		<property name="endDate" value="2016/06/02 12:00" />
 		<property name="tipo" value="Cerrado" />
+		<property name="tipoVotacion">
+			<list>
+				<value>Textos</value>
+				<value>Imágenes</value>
+				<value>Videos</value>
+			</list>
+		</property>
 		<property name="opciones">
 			<list>
 				<value>opción 1</value>
@@ -33,7 +40,7 @@
 
 		</property>
 
-	<!-- Questions -->
+		<!-- Questions -->
 	</bean>
 	<bean id="question1" class="domain.Question">
 		<property name="text" value="yatusabe?" />
