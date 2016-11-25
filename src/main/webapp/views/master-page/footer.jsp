@@ -21,8 +21,14 @@
 
 <hr />
 
+
+
+
+
+
+
 <a href="welcome/aboutus.do"> <spring:message
 			code="about.boton" />
-	</a>
-	
+	</a> 
+	<a id="idiomas" href="?language=en">En</a> | <a id="idiomas" href="?language=es">Es</a>
 	
