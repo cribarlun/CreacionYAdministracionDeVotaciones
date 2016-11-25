@@ -133,10 +133,10 @@
 	</jstl:if>
 	<br/>
 	
-	<input type="submit" name="addOption" value="<spring:message code="survey.add.question" />" />
+	<%-- <input type="submit" name="addOption" value="<spring:message code="survey.add.question" />" />
 	&nbsp; 
 	<br/>
-	<br>
+	<br> --%>
 	
 	
 	<input type="submit" name="addQuestion" value="<spring:message code="survey.add.question" />" />
