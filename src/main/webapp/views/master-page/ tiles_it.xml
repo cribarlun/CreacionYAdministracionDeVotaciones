@@ -23,7 +23,7 @@
 		<put-attribute name="footer" value="/views/master-page/footer.jsp" />
 	</definition>
 		<definition name="about/about" extends="master.page">	
-		<put-attribute name="title" value="chi siamo" />
+		<put-attribute name="title" value="Chi siamo" />
 		<put-attribute name="body" value="/views/master-page/about.jsp" />
 	</definition>
 
